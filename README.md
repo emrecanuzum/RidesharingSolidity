@@ -58,3 +58,7 @@ The acceptRide function is called by a driver to accept a ride. It takes the rid
 The cancelRide function is called by either the rider or the driver to cancel a ride. It takes the ride ID as an argument and requires that the caller is either the rider or the driver assigned to the ride. It transfers the price that the rider paid for the ride back to the rider and deletes the ride from the rides mapping.
 
 The rideCompleted function is called by the rider to mark a ride as completed. It takes the ride ID as an argument and requires that the caller is the rider assigned to the ride. It sets the isCompleted field of the Ride struct to true and transfers the price of the ride to the driver.
+
+#
+
+`I would like to thank Ahmet Kaan Memioğlu for sharing the development process of this project with me`.
